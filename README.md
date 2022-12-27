@@ -1,16 +1,19 @@
-## AnsibleforAWS
-# Create a Key pair and Launch a EC2 instance in Aws account using Ansible
+# AnsibleforAWS
+## Create a Key pair and Launch a EC2 instance in Aws account using Ansible
 
-Ansible for Aws 
+## Ansible for Aws 
 
 
-Authentication
+1. Authentication
 
 First, create an IAM user
 Put the access key and secret key in .bashrc file 
 
+
 vim .bashrc
+
 source .bashrc
+
 After that authentication is done 
 Then logout and login
 
