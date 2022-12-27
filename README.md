@@ -6,21 +6,21 @@
 
 1. Authentication
 
-First, create an IAM user
-Put the access key and secret key in .bashrc file 
+  First, create an IAM user Put the access key and secret key in .bashrc file 
+  vim .bashrc
 
+  source .bashrc
 
-vim .bashrc
+After that authentication is done Then logout and login
+2. create dairectory 
 
-source .bashrc
+ mkdir aws
+ cd aws
 
-After that authentication is done 
-Then logout and login
+3. Create a file  and create playbook
 
-mkdir aws
-cd aws
-vim test-aws.yml
-ansible-playbook test-aws.yml
+ vim test-aws.yml
+ ansible-playbook test-aws.yml
 
 At the time of running this playbook, we can get the error message because 
 some libraries to access different resources like AWS.
